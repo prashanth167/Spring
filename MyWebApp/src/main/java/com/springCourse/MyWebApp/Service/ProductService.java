@@ -13,10 +13,6 @@ import java.util.Properties;
 @Service
 public class ProductService {
 
-//    List<Product> products = new ArrayList<>(Arrays.asList(new Product(1,"phone",50000) ,
-//                                            new Product(2,"tablet", 20000),
-//                                            new Product(3,"TV", 80000)));
-
     @Autowired
     ProductRepo repo;
 
